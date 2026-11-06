@@ -1,0 +1,13 @@
+{
+  "_help": "Copy this file to config.json and adjust it. Keys starting with _ are comments and are ignored.",
+  "serial": "",
+  "image_max_side": 1280,
+  "image_color_bits": 5,
+  "show_touches": true,
+  "keep_screen_on": true,
+  "idle_release_seconds": 180,
+  "restore_clipboard": true,
+  "_protection": "Inside these apps the AI can neither tap nor type; it can only leave them (home/back). A keyword protects every package name that contains it.",
+  "protected_packages": [],
+  "protected_keywords": ["bank", "banque", "wallet", "pay", "money", "finance", "crypto", "binance"]
+}

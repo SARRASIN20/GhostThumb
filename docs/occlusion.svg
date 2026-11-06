@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="430" viewBox="0 0 960 430" role="img" aria-labelledby="title desc">
+  <title id="title">Never tap what is hidden</title>
+  <desc id="desc">A call log partly covered by the dialer keypad: row C is trimmed to the strip that is still visible, row D is removed from the list.</desc>
+  <defs>
+    <clipPath id="screen"><rect x="44" y="104" width="244" height="302" rx="14"/></clipPath>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+      .muted { fill: #59636e; }
+      .bold { font-weight: 700; }
+      .key { fill: #ffffff; stroke: #d0d7de; }
+      .digit { font-size: 12px; text-anchor: middle; }
+      .tag { fill: #ffffff; font-size: 12px; font-weight: 700; text-anchor: middle; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="959" height="429" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="32" y="46" font-size="21" class="bold">Never tap what is hidden</text>
+  <text x="32" y="70" font-size="14" class="muted">The UI tree also lists rows hidden under a panel; tapping their center would press the panel instead.</text>
+
+  <!-- Phone: call log (fictitious) under a dialer keypad -->
+  <rect x="32" y="92" width="268" height="326" rx="26" fill="#24292f"/>
+  <g clip-path="url(#screen)">
+    <rect x="44" y="104" width="244" height="302" fill="#ffffff"/>
+    <text x="58" y="130" font-size="14" class="bold">Recents</text>
+
+    <circle cx="68" cy="168" r="12" fill="#d8dee4"/>
+    <text x="90" y="164" font-size="12" class="bold">Contact A</text>
+    <text x="90" y="181" font-size="10" class="muted">Mobile</text>
+    <line x1="44" y1="196" x2="288" y2="196" stroke="#eaeef2"/>
+    <circle cx="68" cy="224" r="12" fill="#d8dee4"/>
+    <text x="90" y="220" font-size="12" class="bold">Contact B</text>
+    <text x="90" y="237" font-size="10" class="muted">Mobile</text>
+    <line x1="44" y1="252" x2="288" y2="252" stroke="#eaeef2"/>
+    <circle cx="68" cy="280" r="12" fill="#d8dee4"/>
+    <text x="90" y="266" font-size="12" class="bold">Contact C</text>
+    <text x="90" y="283" font-size="10" class="muted">Mobile</text>
+    <circle cx="68" cy="336" r="12" fill="#d8dee4"/>
+    <text x="90" y="332" font-size="12" class="bold">Contact D</text>
+
+    <!-- keypad drawn on top -->
+    <rect x="44" y="270" width="244" height="136" fill="#f6f8fa"/>
+    <line x1="44" y1="270" x2="288" y2="270" stroke="#d0d7de"/>
+    <rect class="key" x="74" y="280" width="52" height="24" rx="12"/><text class="digit" x="100" y="296">1</text>
+    <rect class="key" x="140" y="280" width="52" height="24" rx="12"/><text class="digit" x="166" y="296">2</text>
+    <rect class="key" x="206" y="280" width="52" height="24" rx="12"/><text class="digit" x="232" y="296">3</text>
+    <rect class="key" x="74" y="311" width="52" height="24" rx="12"/><text class="digit" x="100" y="327">4</text>
+    <rect class="key" x="140" y="311" width="52" height="24" rx="12"/><text class="digit" x="166" y="327">5</text>
+    <rect class="key" x="206" y="311" width="52" height="24" rx="12"/><text class="digit" x="232" y="327">6</text>
+    <rect class="key" x="74" y="342" width="52" height="24" rx="12"/><text class="digit" x="100" y="358">7</text>
+    <rect class="key" x="140" y="342" width="52" height="24" rx="12"/><text class="digit" x="166" y="358">8</text>
+    <rect class="key" x="206" y="342" width="52" height="24" rx="12"/><text class="digit" x="232" y="358">9</text>
+    <rect class="key" x="74" y="373" width="52" height="24" rx="12"/><text class="digit" x="100" y="389">*</text>
+    <rect class="key" x="140" y="373" width="52" height="24" rx="12"/><text class="digit" x="166" y="389">0</text>
+    <rect class="key" x="206" y="373" width="52" height="24" rx="12"/><text class="digit" x="232" y="389">#</text>
+
+    <!-- what GhostThumb does -->
+    <rect x="46" y="253" width="240" height="16" fill="#1a7f37" fill-opacity="0.14" stroke="#1a7f37" stroke-dasharray="4 3"/>
+    <circle cx="166" cy="261" r="4.5" fill="#1a7f37"/>
+    <line x1="160" y1="274" x2="172" y2="286" stroke="#cf222e" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="172" y1="274" x2="160" y2="286" stroke="#cf222e" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="46" y="309" width="240" height="54" fill="none" stroke="#cf222e" stroke-dasharray="4 3"/>
+  </g>
+  <circle cx="316" cy="261" r="11" fill="#1a7f37"/><text class="tag" x="316" y="265.5">C</text>
+  <circle cx="316" cy="336" r="11" fill="#cf222e"/><text class="tag" x="316" y="340.5">D</text>
+
+  <!-- Explanations -->
+  <circle cx="364" cy="124" r="11" fill="#1a7f37"/><text class="tag" x="364" y="128.5">C</text>
+  <text x="384" y="129" font-size="15" class="bold">Row C is partly covered</text>
+  <text x="384" y="151" font-size="13" class="muted">It is trimmed to the strip that is still visible, and the tap goes</text>
+  <text x="384" y="169" font-size="13" class="muted">there (green dot) instead of its old center (red cross), under the keypad.</text>
+
+  <circle cx="364" cy="212" r="11" fill="#cf222e"/><text class="tag" x="364" y="216.5">D</text>
+  <text x="384" y="217" font-size="15" class="bold">Row D is fully covered</text>
+  <text x="384" y="239" font-size="13" class="muted">It is removed from the list: it gets no number, so the AI cannot aim at it.</text>
+
+  <circle cx="364" cy="290" r="11" fill="#0969da"/><text class="tag" x="364" y="294.5">?</text>
+  <text x="384" y="295" font-size="15" class="bold">How covering is detected</text>
+  <text x="384" y="317" font-size="13" class="muted">uiautomator gives no drawing order, so document order decides: a clickable</text>
+  <text x="384" y="335" font-size="13" class="muted">node that comes after an element's subtree is drawn on top of it (keypad,</text>
+  <text x="384" y="353" font-size="13" class="muted">bottom sheet, floating button). Found on a real dialer during testing.</text>
+</svg>

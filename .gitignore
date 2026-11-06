@@ -1,0 +1,5 @@
+.state/
+journal/
+__pycache__/
+scrcpy/
+config.json

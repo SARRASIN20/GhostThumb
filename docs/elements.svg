@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="690" viewBox="0 0 960 690" role="img" aria-labelledby="title desc">
+  <title id="title">One look: an image and a numbered list</title>
+  <desc id="desc">A mock chat app with eight numbered elements, next to the text the AI receives for it, and the calls the AI makes in return.</desc>
+  <defs>
+    <style>
+      text { font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; fill: #1f2328; }
+      .muted { fill: #59636e; }
+      .bold { font-weight: 700; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace; font-size: 12.5px; fill: #e6edf3; }
+      .dim { fill: #8b949e; }
+      .num { fill: #79c0ff; }
+      .kind { fill: #d2a8ff; }
+      .xy { fill: #7ee787; }
+      .str { fill: #a5d6ff; }
+      .badge { fill: #0969da; stroke: #ffffff; stroke-width: 2; }
+      .badge-text { fill: #ffffff; font-size: 10px; font-weight: 700; }
+      .outline { fill: none; stroke: #0969da; stroke-width: 1.2; stroke-dasharray: 3 2; }
+    </style>
+  </defs>
+  <rect x="0.5" y="0.5" width="959" height="689" rx="16" fill="#ffffff" stroke="#d0d7de"/>
+  <text x="32" y="46" font-size="21" class="bold">One look: an image and a numbered list</text>
+  <text x="32" y="70" font-size="14" class="muted">The AI picks a number; GhostThumb taps the exact center of that element on the real screen.</text>
+
+  <!-- Phone (mock chat app, fictitious content) -->
+  <rect x="32" y="86" width="264" height="573" rx="30" fill="#24292f"/>
+  <rect x="44" y="104" width="240" height="537" rx="16" fill="#ffffff"/>
+  <text x="56" y="116" font-size="8.5" class="muted">10:42</text>
+  <rect x="262" y="109" width="14" height="7" rx="2" fill="none" stroke="#8b949e"/>
+
+  <text x="72" y="152" font-size="17" class="bold">Chats</text>
+  <circle cx="261" cy="143" r="6" fill="none" stroke="#1f2328" stroke-width="2"/>
+  <line x1="265" y1="147" x2="270" y2="152" stroke="#1f2328" stroke-width="2" stroke-linecap="round"/>
+
+  <rect x="54" y="166" width="220" height="24" rx="12" fill="#eef1f4"/>
+  <text x="74" y="182" font-size="10.5" class="muted">Search…</text>
+
+  <circle cx="68" cy="222" r="13" fill="#a5d6ff"/>
+  <text x="90" y="218" font-size="11.5" class="bold">Ahmed</text>
+  <text x="90" y="234" font-size="10" class="muted">See you at 6</text>
+  <text x="236" y="218" font-size="9" class="muted">10:42</text>
+  <circle cx="263" cy="234" r="5" fill="none" stroke="#57606a" stroke-width="1.6"/>
+  <line x1="263" y1="239" x2="263" y2="244" stroke="#57606a" stroke-width="1.6"/>
+
+  <circle cx="68" cy="270" r="13" fill="#ffd8b5"/>
+  <text x="90" y="266" font-size="11.5" class="bold">Fatima</text>
+  <text x="90" y="282" font-size="10" class="muted">Photo</text>
+  <text x="236" y="266" font-size="9" class="muted">09:15</text>
+
+  <circle cx="68" cy="318" r="13" fill="#d8b9ff"/>
+  <text x="90" y="314" font-size="11.5" class="bold">Sam</text>
+  <text x="90" y="330" font-size="10" class="muted">Thanks!</text>
+  <text x="226" y="314" font-size="9" class="muted">Yesterday</text>
+
+  <circle cx="256" cy="600" r="17" fill="#1a7f37"/>
+  <line x1="256" y1="592" x2="256" y2="608" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+  <line x1="248" y1="600" x2="264" y2="600" stroke="#ffffff" stroke-width="2.4" stroke-linecap="round"/>
+
+  <!-- element outlines -->
+  <rect class="outline" x="68" y="134" width="56" height="22" rx="4"/>
+  <rect class="outline" x="250" y="134" width="26" height="22" rx="4"/>
+  <rect class="outline" x="54" y="166" width="220" height="24" rx="12"/>
+  <rect class="outline" x="46" y="199" width="236" height="46" rx="4"/>
+  <rect class="outline" x="252" y="226" width="22" height="20" rx="4"/>
+  <rect class="outline" x="46" y="247" width="236" height="46" rx="4"/>
+  <rect class="outline" x="46" y="295" width="236" height="46" rx="4"/>
+  <circle class="outline" cx="256" cy="600" r="21"/>
+
+  <!-- number badges -->
+  <circle class="badge" cx="58" cy="145" r="9"/><text class="badge-text" x="58" y="148.5" text-anchor="middle">1</text>
+  <circle class="badge" cx="242" cy="137" r="9"/><text class="badge-text" x="242" y="140.5" text-anchor="middle">2</text>
+  <circle class="badge" cx="62" cy="178" r="9"/><text class="badge-text" x="62" y="181.5" text-anchor="middle">3</text>
+  <circle class="badge" cx="50" cy="204" r="9"/><text class="badge-text" x="50" y="207.5" text-anchor="middle">4</text>
+  <circle class="badge" cx="246" cy="228" r="9"/><text class="badge-text" x="246" y="231.5" text-anchor="middle">5</text>
+  <circle class="badge" cx="50" cy="252" r="9"/><text class="badge-text" x="50" y="255.5" text-anchor="middle">6</text>
+  <circle class="badge" cx="50" cy="300" r="9"/><text class="badge-text" x="50" y="303.5" text-anchor="middle">7</text>
+  <circle class="badge" cx="235" cy="582" r="9"/><text class="badge-text" x="235" y="585.5" text-anchor="middle">8</text>
+
+  <!-- What the AI receives -->
+  <text x="928" y="90" font-size="11" class="muted" text-anchor="end">actual tool output (its messages are in French)</text>
+  <rect x="340" y="98" width="588" height="262" rx="10" fill="#0d1117"/>
+  <text class="mono dim" x="356" y="124">Écran 720×1612 · image 572×1280 : les x,y se lisent sur cette image</text>
+  <text class="mono dim" x="356" y="145">app : com.example.chat</text>
+  <text class="mono dim" x="356" y="166">8 éléments (numéros valables jusqu'à la prochaine capture) :</text>
+  <text class="mono" x="356" y="196"><tspan class="num">[1]</tspan> <tspan class="kind">texte</tspan> « Chats » <tspan class="xy">(124,98)</tspan></text>
+  <text class="mono" x="356" y="217"><tspan class="num">[2]</tspan> <tspan class="kind">bouton</tspan> « Search » <tspan class="xy">(522,98)</tspan></text>
+  <text class="mono" x="356" y="238"><tspan class="num">[3]</tspan> <tspan class="kind">champ</tspan> « Search… » <tspan class="xy">(286,176)</tspan></text>
+  <text class="mono" x="356" y="259"><tspan class="num">[4]</tspan> <tspan class="kind">bouton</tspan> « Ahmed · See you at 6 · 10:42 » <tspan class="xy">(286,281)</tspan></text>
+  <text class="mono" x="356" y="280"><tspan class="num">[5]</tspan> <tspan class="kind">bouton</tspan> « Pin » <tspan class="xy">(522,315)</tspan></text>
+  <text class="mono" x="356" y="301"><tspan class="num">[6]</tspan> <tspan class="kind">bouton</tspan> « Fatima · Photo · 09:15 » <tspan class="xy">(286,396)</tspan></text>
+  <text class="mono" x="356" y="322"><tspan class="num">[7]</tspan> <tspan class="kind">bouton</tspan> « Sam · Thanks! · Yesterday » <tspan class="xy">(286,510)</tspan></text>
+  <text class="mono" x="356" y="343"><tspan class="num">[8]</tspan> <tspan class="kind">bouton</tspan> « New chat » <tspan class="xy">(505,1182)</tspan></text>
+
+  <!-- What the AI does with it -->
+  <text x="340" y="394" font-size="13.5">The AI answers with a number, not a guess:</text>
+  <rect x="340" y="406" width="588" height="96" rx="10" fill="#0d1117"/>
+  <text class="mono" x="356" y="434" xml:space="preserve">phone_tap    {<tspan class="str">"element"</tspan>: <tspan class="num">4</tspan>}</text>
+  <text class="mono" x="356" y="458" xml:space="preserve">phone_type   {<tspan class="str">"text"</tspan>: <tspan class="str">"Salut, ça va ?"</tspan>, <tspan class="str">"submit"</tspan>: true, <tspan class="str">"look"</tspan>: true}</text>
+  <text class="mono" x="356" y="482" xml:space="preserve">phone_scroll {<tspan class="str">"direction"</tspan>: <tspan class="str">"down"</tspan>}</text>
+
+  <text x="340" y="536" font-size="13" class="muted">•  x,y are pixels of the returned image, converted to screen pixels.</text>
+  <text x="340" y="560" font-size="13" class="muted">•  A row absorbs its texts; a button inside it ([5]) keeps its own number.</text>
+  <text x="340" y="584" font-size="13" class="muted">•  Off-screen and covered elements are left out.</text>
+  <text x="340" y="608" font-size="13" class="muted">•  Text in any script goes through the clipboard, which is restored afterwards.</text>
+</svg>
